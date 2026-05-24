@@ -1,16 +1,42 @@
-# React + Vite
+# Welcome to my Portfolio
+Here you can find out more about me, see my projects and contact me.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What's this?
+A personal portfolio website.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- Vite
+- Css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Project Structure
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+.
+├── HELP.md
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.svg -> (for removal)
+│   └── icons.svg -> (for removal)
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   └── images
+│   ├── components
+│   │   ├── layouts
+│   │   │   └── Navbar.jsx
+│   │   └── sections
+│   │       ├── About.jsx
+│   │       ├── Contact.jsx
+│   │       ├── Hero.jsx
+│   │       ├── Projects.jsx
+│   │       └── Skills.jsx
+│   ├── index.css
+│   └── main.jsx
+└── vite.config.js
+```
