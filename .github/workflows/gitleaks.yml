@@ -1,4 +1,4 @@
-name: gitleaks.yml
+name: gitleaks
 
 on:
   push:

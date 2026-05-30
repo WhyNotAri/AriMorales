@@ -2,7 +2,7 @@ name: CI
 
 on:
   workflow_run:
-    workflows: ["gitleaks.yml"]
+    workflows: ["gitleaks"]
     types: [completed]
 
 jobs:
