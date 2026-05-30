@@ -1,6 +1,9 @@
 # Welcome to my Portfolio
 Here you can find out more about me, see my projects and contact me.
 
+## Demo
+https://whynotari.github.io/AriMorales/
+
 ## What's this?
 A personal portfolio website.
 
@@ -20,8 +23,6 @@ A personal portfolio website.
 ├── package-lock.json
 ├── package.json
 ├── public
-│   ├── favicon.svg -> (for removal)
-│   └── icons.svg -> (for removal)
 ├── src
 │   ├── App.css
 │   ├── App.jsx
