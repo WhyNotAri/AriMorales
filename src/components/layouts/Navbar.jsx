@@ -1,13 +1,13 @@
 function Navbar() {
     return (
         <header className="navbar">
-            <a href="#" className="logo">Ari Morales</a>
+            <a href="#home" className="logo">Ari Morales</a>
 
             <nav className="links" aria-label="Main Navigation">
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
     )
