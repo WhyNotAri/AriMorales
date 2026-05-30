@@ -8,10 +8,10 @@ function Hero() {
                 , focusing on practical, maintainable, scalable and user-friendly solutions.
             </p>
 
-            <div>
-                <a href="#projects" className="btn">My Projects</a>
-                <a href="#contact" className="btn">Contact Me</a>
-            </div>
+            {/*<div>
+                <a href="#" className="btn">My Projects</a>
+                <a href="#" className="btn">Contact Me</a>
+            </div>*/}
         </section>
     )
 }

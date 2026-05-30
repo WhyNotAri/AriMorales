@@ -3,7 +3,7 @@ function About() {
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm a Software Engineer Student at Tecmilenio University.
+                I'm a Software Engineer Student.
                 I'm passionate about building practical solutions using Java Spring Boot and Python.
             </p>
             <p>

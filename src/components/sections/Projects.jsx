@@ -71,7 +71,6 @@ function Projects() {
     return (
         <section id="projects">
             <h2>Projects</h2>
-            <p>Here are some of my projects:</p>
             <div className="projects">
                 {projects.map((project, index) => (
                     <div key={index} className="project">

@@ -2,7 +2,7 @@ function Skills() {
     const mySkills = [
         {
             category: 'Backend',
-            skills: ['Java Spring Boot', 'Python']
+            skills: ['Java (Spring Boot)', 'Python']
         },
         {
             category: 'Frontend',
