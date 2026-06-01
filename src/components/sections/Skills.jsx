@@ -2,7 +2,7 @@ function Skills() {
     const mySkills = [
         {
             category: 'Backend',
-            skills: ['Java (Spring Boot)', 'Python']
+            skills: ['Java', 'Spring Boot', 'Python', 'SQL', 'MySQL / PostgreSQL']
         },
         {
             category: 'Frontend',
@@ -17,10 +17,6 @@ function Skills() {
     return (
         <section id="skills">
             <h2>Skills</h2>
-            <p>
-                I'm currently improving my skills and building projects that helps me strengthen my
-                backend, frontend and deployment skills.
-            </p>
             <div className="skills">
                 {mySkills.map((category, index) => (
                     <div key={index} className="category">
