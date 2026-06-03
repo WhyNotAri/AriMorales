@@ -219,6 +219,8 @@
 
 .project:hover {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  transform: translateY(-6px);
+  cursor: pointer;
 }
 
 .project h3 {
@@ -237,13 +239,13 @@
   max-width: 100%;
 }
 
-#contact h2, #contact p, #contact div {
+#contact h2, #contact p, .contact-links {
   max-width: var(--container-width);
   margin-left: auto;
   margin-right: auto;
 }
 
-#contact div {
+.contact-links {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
@@ -251,7 +253,7 @@
   flex-wrap: wrap;
 }
 
-#contact div a {
+.contact-links a {
   background: var(--bg-color);
   padding: 0.75rem 1.5rem;
   border-radius: 12px;
@@ -264,10 +266,11 @@
   align-items: center;
 }
 
-#contact div a:hover {
+.contact-links a:hover {
   background: var(--primary-color);
   color: white;
   border-color: var(--primary-color);
+  transform: translateY(-4px);
 }
 
 @media (max-width: 768px) {
@@ -307,13 +310,13 @@
     font-size: 1.25rem;
   }
 
-  #contact div {
+  .contact-links {
     gap: 1.5rem;
     flex-direction: column;
     align-items: center;
   }
 
-  #contact div a {
+  .contact-links a {
     width: 100%;
     max-width: 250px;
   }

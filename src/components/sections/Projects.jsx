@@ -46,7 +46,7 @@ const projects = [
     },
     {
         title: 'Portfolio Website',
-        description: 'A portfolio website built with React and Vite.',
+        description: 'A portfolio website built with React and Vite (This one).',
         technologies: [
             'React',
             'Vite',
