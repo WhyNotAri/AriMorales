@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { FiMoon, FiSun } from 'react-icons/fi';
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(!document.documentElement.classList.contains('light'));
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -9,6 +11,11 @@ function Navbar() {
 
     const closeMenu = () => {
         setIsMenuOpen(false);
+    };
+
+    const toggleTheme = () => {
+        const newIsDarkMode = document.documentElement.classList.toggle('light');
+        setIsDarkMode(!newIsDarkMode);
     };
 
     return (
@@ -29,6 +36,15 @@ function Navbar() {
                 <a href="#skills" onClick={closeMenu}>Skills</a>
                 <a href="#projects" onClick={closeMenu}>Projects</a>
                 <a href="#contact" onClick={closeMenu}>Contact</a>
+
+                <button type="button" className="toggle-theme"
+                    onClick={() => {
+                        toggleTheme();
+                        closeMenu();
+                    }} aria-label="Toggle theme"
+                >
+                    {isDarkMode ? <FiSun size={20}/> : <FiMoon size={20}/>}
+                </button>
             </nav>
         </header>
     )

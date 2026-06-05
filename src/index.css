@@ -1,13 +1,23 @@
 :root {
-  --primary-color: #a78bfa;
-  --primary-hover: #8b5cf6;
+  --primary-color: #8b5cf6;
+  --primary-hover: #7c3aed;
   --bg-color: #000000;
   --text-color: #f3f4f6;
   --text-muted: #9ca3af;
   --bg-alt: #111827;
   --border-color: #1f2937;
+  --nav-bg: rgba(0, 0, 0, 0.8);
   --container-width: 1000px;
   --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root.light {
+  --bg-color: #f8fafc;
+  --text-color: #0f172a;
+  --text-muted: #475569;
+  --bg-alt: #ffffff;
+  --border-color: #e2e8f0;
+  --nav-bg: rgba(255, 255, 255, 0.9);
 }
 
 * {
