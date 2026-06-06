@@ -1,11 +1,14 @@
 # Welcome to my Portfolio
-Here you can find out more about me, see my projects and contact me.
+Here you can find out more about me, see my projects and more...
 
-## Demo
+---
+
+![Video](public/video.gif)
+
 https://whynotari.github.io/AriMorales/
 
 ## What's this?
-A personal portfolio website.
+My personal portfolio website.
 
 ## Tech Stack
 - React
