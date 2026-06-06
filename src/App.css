@@ -1,8 +1,9 @@
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
   padding: 1rem 5%;
   position: sticky;
   top: 0;
@@ -21,6 +22,7 @@
 .navbar .links {
   display: flex;
   gap: 2rem;
+  margin-left: auto;
 }
 
 .navbar .links a {
@@ -30,6 +32,13 @@
 
 .navbar .links a:hover {
   color: var(--primary-color);
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  z-index: 1001;
 }
 
 .toggle-theme {
@@ -304,6 +313,10 @@
 
   .menu-toggle {
     display: block;
+  }
+
+  .navbar-actions {
+    margin-left: auto;
   }
   
   .navbar .links {
