@@ -1,6 +1,8 @@
+import RevealSection from '../RevealSection'
+
 function Hero() {
     return (
-        <section id="home">
+        <RevealSection id="home">
             <p>Hi, I'm <span>Ari Morales</span></p>
             <h1>A Software Engineer Student</h1>
             <p>
@@ -12,7 +14,7 @@ function Hero() {
                 <a href="#" className="btn">My Projects</a>
                 <a href="#" className="btn">Contact Me</a>
             </div>*/}
-        </section>
+        </RevealSection>
     )
 }
 

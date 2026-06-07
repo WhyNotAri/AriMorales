@@ -1,3 +1,5 @@
+import RevealSection from '../RevealSection'
+
 function Skills() {
     const mySkills = [
         {
@@ -15,7 +17,7 @@ function Skills() {
     ]
 
     return (
-        <section id="skills">
+        <RevealSection id="skills">
             <h2>Skills</h2>
             <div className="skills">
                 {mySkills.map((category, index) => (
@@ -29,7 +31,7 @@ function Skills() {
                     </div>
                 ))}
             </div>
-        </section>
+        </RevealSection>
     )
 }
 

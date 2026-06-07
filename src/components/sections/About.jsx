@@ -1,6 +1,8 @@
+import RevealSection from '../RevealSection'
+
 function About() {
     return (
-        <section id="about">
+        <RevealSection id="about">
             <h2>About Me</h2>
             <p>
                 I'm a Software Engineer Student.
@@ -10,7 +12,7 @@ function About() {
                 I'm currently improving my skills and building projects that helps me strengthen my
                 backend, frontend and deployment skills.
             </p>
-        </section>
+        </RevealSection>
     )
 }
 

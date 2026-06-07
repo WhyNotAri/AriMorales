@@ -1,3 +1,5 @@
+import RevealSection from '../RevealSection'
+
 const projects = [
     {
         title: 'Minecraft Java Plugin',
@@ -69,7 +71,7 @@ const projects = [
 
 function Projects() {
     return (
-        <section id="projects">
+        <RevealSection id="projects">
             <h2>Projects</h2>
             <div className="projects">
                 {projects.map((project, index) => (
@@ -79,7 +81,7 @@ function Projects() {
                     </div>
                 ))}
             </div>
-        </section>
+        </RevealSection>
     )
 }
 
