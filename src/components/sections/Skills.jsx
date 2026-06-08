@@ -4,15 +4,15 @@ function Skills() {
     const mySkills = [
         {
             category: 'Backend',
-            skills: ['Java', 'Spring Boot', 'Python', 'SQL', 'MySQL / PostgreSQL']
+            skills: ['Java', 'Spring Boot', 'Python', 'REST APIs', 'SQL', 'MySQL', 'PostgreSQL']
         },
         {
             category: 'Frontend',
-            skills: ['React', 'JavaScript', 'HTML', 'CSS']
+            skills: ['React', 'CSS', 'JavaScript', 'HTML', 'Responsive Design']
         },
         {
             category: 'Tools',
-            skills: ['Git', 'GitHub Actions', 'Postman', 'Docker', 'Kubernetes', 'AWS']
+            skills: ['Git', 'GitHub Actions', 'Postman', 'Docker', 'Kubernetes', 'CLI', 'AWS']
         }
     ]
 
