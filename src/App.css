@@ -144,6 +144,7 @@
 #home p:nth-child(3) {
   max-width: 600px;
   font-size: 1.25rem;
+  font-weight: 500;
   color: var(--text-muted);
   margin-bottom: 2rem;
 }
@@ -151,6 +152,7 @@
 #home div {
   display: flex;
   gap: 1rem;
+  width: 100%;
 }
 
 .btn {
@@ -183,7 +185,7 @@
 
 /* About Me */
 #about {
-  background-color: var(--bg-alt);
+  background: var(--bg-alt);
   max-width: 100%;
 }
 
@@ -207,11 +209,11 @@
 }
 
 .category {
-  background: var(--bg-alt);
+  background: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid var(--border-color);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
 }
 
 .category h3 {
@@ -239,17 +241,19 @@
 }
 
 .project {
-  background: var(--bg-alt);
+  background: var(--card-bg);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid var(--border-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .project:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--card-shadow-hover);
   transform: translateY(-6px);
   cursor: pointer;
+  border-color: var(--primary-color);
 }
 
 .project h3 {
@@ -283,12 +287,13 @@
 }
 
 .contact-links a {
-  background: var(--bg-color);
+  background: var(--card-bg);
   padding: 0.75rem 1.5rem;
   border-radius: 12px;
   font-weight: 500;
   font-size: 1.1rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
   width: 160px;
   display: flex;
   justify-content: center;
@@ -331,7 +336,7 @@
     align-items: center;
     gap: 2.5rem;
     transition: right 0.3s ease-in-out;
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--drawer-shadow);
     z-index: 1000;
   }
 
@@ -357,10 +362,14 @@
 
 /* Footer */
 .footer {
-  background-color: var(--bg-alt);
+  background: var(--bg-alt);
   border-top: 1px solid var(--border-color);
   padding: 2.5rem 20px;
   margin-top: 1.5rem;
+}
+
+:root.light .footer {
+  background: #ffffff;
 }
 
 .footer-content {
