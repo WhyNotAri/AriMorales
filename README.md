@@ -3,19 +3,23 @@ Here you can find out more about me, see my projects and more...
 
 ---
 
-![Video](public/video.gif)
+![Video](public/demo.gif)
 
 https://whynotari.github.io/AriMorales/
 
-## What's this?
-My personal portfolio website.
+---
 
 ## Tech Stack
 - React
 - Vite
 - Css
+- GitHub Pages
+
+---
 
 # Project Structure
+<details>
+  <summary>Expand</summary>
 
 ```
 .
@@ -26,13 +30,16 @@ My personal portfolio website.
 ├── package-lock.json
 ├── package.json
 ├── public
+│   └── demo.gif
 ├── src
 │   ├── App.css
 │   ├── App.jsx
 │   ├── assets
 │   │   └── images
 │   ├── components
+│   │   ├── RevealSection.jsx
 │   │   ├── layouts
+│   │   │   ├── Footer.jsx
 │   │   │   └── Navbar.jsx
 │   │   └── sections
 │   │       ├── About.jsx
@@ -44,3 +51,5 @@ My personal portfolio website.
 │   └── main.jsx
 └── vite.config.js
 ```
+
+</details>
